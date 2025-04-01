@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left side: Fortune Display -->
+        <div class="fortune-container">
+            <h1>Fortune Teller</h1>
+            <p>Click a category and tell your fortune!</p>
+            <div id="fortune" class="fortune-message"></div>
+            <div class="category-buttons">
+                <button class="category-btn" data-category="general">General Fortune</button>
+                
+                <button class="category-btn" data-category="career">Career Fortune</button>
+                <button class="category-btn" data-category="health">Health Fortune</button>
+            </div>
+            <button id="tellFortuneBtn" class="tell-fortune-btn">Tell My Fortune</button>
+        </div>
+
+        <!-- Right side: History Section -->
+        <div class="history-container">
+            <h2>Fortune History</h2>
+            <ul id="history-list" class="history-list"></ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
